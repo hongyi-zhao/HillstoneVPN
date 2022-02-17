@@ -1,0 +1,12 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=HillstoneVPN
+Name[zh_CN]=HillStoneVPN
+Exec=/opt/HillstoneVPN/start_scvpn.sh /opt/HillstoneVPN
+Icon=/opt/HillstoneVPN/res/scvpn.png
+Terminal=false
+StartupNotify=false
+Type=Application
+Categories=Application;Network;Security;
+GenericName[en_US]=Secure Connect VPN
+Comment[en_US]=Secure Connect VPN

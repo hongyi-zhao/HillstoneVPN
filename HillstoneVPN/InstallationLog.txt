@@ -1,0 +1,86 @@
+************************************* Invoked: 周五 1月 1 19:40:34 2021
+[0] Warning: Could not create lock file '/home/a/下载/lockmyApp1234865.lock': 没有那个文件或目录
+[8] Arguments:  /home/a/下载/hillstone
+[12] Operations sanity check succeeded.
+[102] Loaded control script ":/metadata/installer-config/installcontrol_qs.qs"
+[102] Using control script: ":/metadata/installer-config/installcontrol_qs.qs"
+[4274] OS: ubuntu 16.04
+[4274] Kernel: linux
+[4274] CPU Architecture: x86_64
+[4278] Control script callback "TargetDirectoryPageCallback" does not exist.
+[6735] Control script callback "LicenseAgreementPageCallback" does not exist.
+[9182] Tmp and install folder are on the same volume. Volume mount point: "/" Free space available: "3.37 GB"
+[9182] Installation space required: "61.18 MB" Temporary space required: "0.00 字节" Local repository size: "0.00 字节"
+[9182] Control script callback "ReadyForInstallationPageCallback" does not exist.
+[10753] Control script callback "PerformInstallationPageCallback" does not exist.
+[10785] backup  operation: Mkdir
+[10785] \t- arguments: /home/a/SCVPN
+[10785] Done
+[10785] perform  operation: Mkdir
+[10785] \t- arguments: /home/a/SCVPN
+[10785] Done
+[10785] Install size: 3 components
+[10798] backup com.hillstonenet.www.scvpn operation: Mkdir
+[10798] \t- arguments: /home/a/.local/share/scvpn
+[10798] Done
+[10798] perform com.hillstonenet.www.scvpn operation: Mkdir
+[10798] \t- arguments: /home/a/.local/share/scvpn
+[10798] Done
+[10798] backup com.hillstonenet.www.scvpn operation: CreateDesktopEntry
+[10798] \t- arguments: /home/a/.local/share/scvpn/SCVPN.desktop, Name=SCVPN\nName[zh_CN]=SCVPN\nExec=/home/a/SCVPN/start_scvpn.sh /home/a/SCVPN\nIcon=/home/a/SCVPN/res/scvpn.png\nTerminal=false\nStartupNotify=false\nType=Application\nCategories=Application;Network;Security;\nGenericName[en_US]=Secure Connect VPN\nComment[en_US]=Secure Connect VPN
+[10798] Done
+[10798] perform com.hillstonenet.www.scvpn operation: CreateDesktopEntry
+[10798] \t- arguments: /home/a/.local/share/scvpn/SCVPN.desktop, Name=SCVPN\nName[zh_CN]=SCVPN\nExec=/home/a/SCVPN/start_scvpn.sh /home/a/SCVPN\nIcon=/home/a/SCVPN/res/scvpn.png\nTerminal=false\nStartupNotify=false\nType=Application\nCategories=Application;Network;Security;\nGenericName[en_US]=Secure Connect VPN\nComment[en_US]=Secure Connect VPN
+[10798] Done
+[10798] backup com.hillstonenet.www.scvpn operation: License
+[10798] \t- arguments: 
+[10798] Done
+[10798] perform com.hillstonenet.www.scvpn operation: License
+[10798] \t- arguments: 
+[10798] Done
+[10798] backup com.hillstonenet.www.scvpn.basic operation: Extract
+[10798] \t- arguments: installer://com.hillstonenet.www.scvpn.basic/1.0.0bin.7z, /home/a/SCVPN
+[10798] Done
+[10798] perform com.hillstonenet.www.scvpn.basic operation: Extract
+[10798] \t- arguments: installer://com.hillstonenet.www.scvpn.basic/1.0.0bin.7z, /home/a/SCVPN
+[10799] Done
+[10799] backup com.hillstonenet.www.scvpn.basic operation: Extract
+[10799] \t- arguments: installer://com.hillstonenet.www.scvpn.basic/1.0.0content.7z, /home/a/SCVPN
+[10799] Done
+[10799] perform com.hillstonenet.www.scvpn.basic operation: Extract
+[10799] \t- arguments: installer://com.hillstonenet.www.scvpn.basic/1.0.0content.7z, /home/a/SCVPN
+[10799] Done
+[10799] backup com.hillstonenet.www.scvpn.basic operation: Extract
+[10799] \t- arguments: installer://com.hillstonenet.www.scvpn.basic/1.0.0language.7z, /home/a/SCVPN
+[10799] Done
+[10799] perform com.hillstonenet.www.scvpn.basic operation: Extract
+[10799] \t- arguments: installer://com.hillstonenet.www.scvpn.basic/1.0.0language.7z, /home/a/SCVPN
+[10802] Done
+[10802] backup com.hillstonenet.www.scvpn.basic operation: Extract
+[10802] \t- arguments: installer://com.hillstonenet.www.scvpn.basic/1.0.0lib.7z, /home/a/SCVPN
+[10802] Done
+[10802] perform com.hillstonenet.www.scvpn.basic operation: Extract
+[10802] \t- arguments: installer://com.hillstonenet.www.scvpn.basic/1.0.0lib.7z, /home/a/SCVPN
+[11854] Done
+[11854] backup com.hillstonenet.www.scvpn.basic operation: Extract
+[11854] \t- arguments: installer://com.hillstonenet.www.scvpn.basic/1.0.0plugins.7z, /home/a/SCVPN
+[11855] Done
+[11855] perform com.hillstonenet.www.scvpn.basic operation: Extract
+[11855] \t- arguments: installer://com.hillstonenet.www.scvpn.basic/1.0.0plugins.7z, /home/a/SCVPN
+[11900] Done
+[11900] backup com.hillstonenet.www.scvpn.basic operation: Extract
+[11900] \t- arguments: installer://com.hillstonenet.www.scvpn.basic/1.0.0res.7z, /home/a/SCVPN
+[11900] Done
+[11900] perform com.hillstonenet.www.scvpn.basic operation: Extract
+[11900] \t- arguments: installer://com.hillstonenet.www.scvpn.basic/1.0.0res.7z, /home/a/SCVPN
+[11901] Done
+[11901] backup com.hillstonenet.www.scvpn.ubuntu operation: Extract
+[11901] \t- arguments: installer://com.hillstonenet.www.scvpn.ubuntu/1.0.0bin.7z, /home/a/SCVPN
+[11901] Done
+[11901] perform com.hillstonenet.www.scvpn.ubuntu operation: Extract
+[11901] \t- arguments: installer://com.hillstonenet.www.scvpn.ubuntu/1.0.0bin.7z, /home/a/SCVPN
+[11964] Done
+[11968] Writing maintenance tool: "/home/a/SCVPN/MaintenanceTool.new"
+[12273] Wrote permissions for maintenance tool.
+[12334] Maintenance tool restart: false.
+[12335] SHOW FINISHED PAGE
